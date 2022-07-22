@@ -1,0 +1,50 @@
+.collection-header{
+    background-color: #161634;
+}
+.collection h1{
+    color: white;
+}
+.collection h4{
+    color:#fd562a;
+}
+.collection-top{
+    background-image: url('../../../public/assets/images/bg-collection-top.png');
+    background-color: #161634;
+    padding: 150px;
+}
+.collection-top h1{
+    color:#fd562a;
+}
+.collection-top p{
+    color: white;
+}
+.collection-mint{
+    background-color: #060826;
+}
+.collection-input{
+    width: 5rem;
+    border-radius: 10px;
+}
+.lion-img{
+    animation: lion-up;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes lion-up {
+    0%{
+        transform: translateY(0px);
+    }
+    25%{
+        transform: translateY(30px);
+    }
+    50%{
+        transform: translateY(0px);
+    }
+    75%{
+        transform: translateY(-30px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}

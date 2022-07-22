@@ -1,0 +1,66 @@
+.ExploreAll{
+    background-color: #060826;
+}
+.ExploreAll h1{
+    color: white;
+}
+.ExploreAll h4{
+    color:#fd562a;
+}
+.images-slider{
+    background-color: black;
+}
+
+.mySwiper1{
+    position: relative;
+    width: 20%;
+    z-index: 5; 
+}
+.mySwiper{
+    opacity: 0.3;
+    position: relative;
+    width: 70%;
+    height: auto;
+    z-index: 2;
+}  
+
+@media screen and (min-width: 900px) {
+    .mySwiper1{  
+        top:-70px;
+    }
+    .mySwiper{
+        top:100px;
+    }  
+}
+@media screen and (min-width: 1024px) {
+    .mySwiper1{  
+        top:-80px;
+    }
+    .mySwiper{
+        top:100px;
+    }  
+}
+@media screen and (min-width: 1440px) {
+    .mySwiper1{  
+        top:-115px;
+    }
+    .mySwiper{
+        top:130px;
+    }  
+}
+@media screen and (min-width: 1780px) {
+    .mySwiper1{  
+        top:-115px;
+    }
+    .mySwiper{
+        top:200px;
+    }  
+}
+@media screen and (min-width: 2560px) {
+    .mySwiper1{  
+        top:-215px;
+    }
+    .mySwiper{
+        top:230px;
+    }  
+}

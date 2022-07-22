@@ -1,0 +1,7 @@
+.road-map{
+    background-image: linear-gradient(to left top,#fd562a,rgba(211,40,83,.7),rgba(148,31,95,.8),#4f2155,#161634);
+    box-shadow: 10px 10px #fd562a;
+}
+.road-map p{
+    color: white;
+}

@@ -1,0 +1,17 @@
+.footer{
+    background-color: #060826;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+.footer h1{
+    color: white;
+}
+.footer-icons{
+    text-decoration: none;
+    color:#fd562a;
+    padding: 2px;
+    border: 1px solid #fd562a;
+    border-radius: 2px;
+}
