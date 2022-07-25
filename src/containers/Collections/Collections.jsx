@@ -16,8 +16,8 @@ const Collections = () => {
             <div className="collection-mint p-5">                    
                     <h1 className="text-center text-white">MINT</h1>
                     <div className="row justify-content-around p-5 align-items-center">
-                        <img src="assets/images/collection-lion.png" className="col-lg-3 col-md-4 lion-img"/>
-                        <div className="col-6 d-flex flex-column justify-content-center align-items-center">
+                        <img src="assets/images/collection-lion.png" className="col-lg-3 col-md-3 lion-img"/>
+                        <div className="col-lg-8 d-flex flex-column justify-content-center align-items-center py-5">
                             <input type="text" className="bg-transparent fs-1 collection-input mb-5"/>
                             <div className="d-flex flex-row align-items-center justify-content-around my-3">
                                 <Button_WHE data="Mint with BNB"></Button_WHE>
